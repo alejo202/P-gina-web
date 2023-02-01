@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 100%;
+	background: white;
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	font-family:"helvetica";
+	font-size: 60px;
+	text-align:right;
+	color: #A3CCAB;
+}
+
+h2{
+	font-family: Helvetica;
+	font-weight: 700;
+	font-size: 35px;
+	color: #053D38;
+		margin: 5% 13% 0px;
+	
+}
+
+.Contenido {
+	width: 100%;
+	height: 30px;
+	text-align: left;
+	margin: 300px 0;
+	position: absolute;
+}
+.Contenido img{
+	width: 500px;
+	height: 300px;
+}
+.imagen img{
+	width: 500px;
+	float: right;
+	margin: 10px 0px 0px 0px;
+}
+
+article{
+	width: 35%;
+	text-align: left;
+	font-family: Arial;
+	font-weight: 300;
+	float: left;
+	margin: 30px 13% 0px;
+}
+.contenedor{
+	width: 100%;
+    }
+
+.texto-encima{
+	height: 200px;
+position: absolute;
+top: 22%;
+left: 70%;
+}
+
+.centrado{
+	width: 50%;
+	position: absolute;
+	left: 41%;
+	top: 33%;
+	transform:translate(-50, -50);
+}
+
+ul{
+	width: 95%;
+	margin: 0px 0;
+	padding: 0px 0;
+	height: 35px;
+	list-style: none;
+	position: absolute;
+	margin: 25px 0;
+}
+
+
+li{
+	list-style-type: none;
+	float: right;
+	display: inline-flex;
+	width: 12%;
+	line-height: 30px;
+}
+
+li a{
+	text-decoration: none;
+	color: white;
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-family: Helvetica;
+	font-weight: 700;
+	font-size: 17px;
+}
+
+li a:hover{
+	color:#A3CCAB;
+}
+
+
+
+
+.conte-img{
+	width: 100%;
+	position: absolute;
+	height: 300px;
+}
+.conte-img .imagen-fondo{
+	width: 100%;
+	height: 300px;
+}
+.imagen2{
+    float: left;
+}
+
+.imagen2 img{
+    width: 125px;
+    height: 75px;
+    margin: 0 20px 0;
+}
+
+.imagen3{
+	width: 25px;
+	height: 25px;
+	top: 150px;
+	left: 70px;
+	position: absolute;
+}
+
+.imagen4{
+	width: 25px;
+	height: 25px;
+	top: 200px;
+	left: 70px;
+	    position: absolute;
+}
+
+.boton5{
+	border-radius: 30px;
+}
+
+input{
+	border-radius: 30px;
+	width: 150px;
+	height: 30px;
+	background: #053d38;
+	color: white;
+	margin: 10px 0px 0px 170px;
+	font-size: 18px;
+	position: absolute;
+	top: 90%;
+	
+}
+
+input:hover{
+	color: #A3CCAB;
+}
